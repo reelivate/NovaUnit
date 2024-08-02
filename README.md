@@ -1,23 +1,21 @@
 # NovaUnit
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/joshgaber/novaunit.svg?style=flat-square)](https://packagist.org/packages/joshgaber/novaunit)
-[![Code Coverage](https://scrutinizer-ci.com/g/joshgaber/novaunit/badges/coverage.png)](https://scrutinizer-ci.com/g/joshgaber/novaunit/)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/joshgaber/novaunit/badges/quality-score.png)](https://scrutinizer-ci.com/g/joshgaber/novaunit/)
-[![Total Downloads](https://img.shields.io/packagist/dt/joshgaber/novaunit.svg?style=flat-square)](https://packagist.org/packages/joshgaber/novaunit)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jamesfreeman/novaunit.svg?style=flat-square)](https://packagist.org/packages/joshgaber/novaunit)
+[![Total Downloads](https://img.shields.io/packagist/dt/jamesfreeman/novaunit.svg?style=flat-square)](https://packagist.org/packages/jamesfreeman/novaunit)
 
-[NovaUnit](https://joshgaber.github.io/NovaUnit) is a unit-testing package for Laravel Nova, built using PHPUnit. NovaUnit provides you with assertions for Nova Actions, Lenses and Resources, so you can create great administration panels with confidence.
+[NovaUnit](https://jamesfreeman.github.io/NovaUnit) is a unit-testing package for Laravel Nova, built using PHPUnit. NovaUnit provides you with assertions for Nova Actions, Lenses and Resources, so you can create great administration panels with confidence.
 
 ## Installation
 
 You can install the package in your Laravel Project via composer:
 
 ```sh
-composer require --dev joshgaber/novaunit
+composer require --dev jamesfreeman/novaunit
 ```
 
 ### Requirements
 
-* PHP 7.3 or higher
+* PHP 8.0 or higher
 * [Laravel](https://laravel.com/) 6.x - 11.x
 * [Laravel Nova](https://nova.laravel.com/) 2.x - 4.x
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit) 8.5.x - 11.x
@@ -39,7 +37,7 @@ $this->novaAction(ClearLogs::class)
     ->assertHasField('since_date');
 ```
 
-For a list of available methods, see the [full docs site](https://joshgaber.github.io/NovaUnit).
+For a list of available methods, see the [full docs site](https://jamesfreeman.github.io/NovaUnit).
 
 ### Changelog
 
@@ -51,11 +49,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email joshgaber@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email github@james-freeman.info instead of using the issue tracker.
 
 ## Created By
 
-* [Josh Gaber](https://github.com/joshgaber) (Creator & Maintainer)
+* [Josh Gaber](https://github.com/joshgaber) (Creator)
+* [James Freeman](https://github.com/jamesfremean) (Maintainer)
 
 ## Contributors
 

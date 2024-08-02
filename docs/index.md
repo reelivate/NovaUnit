@@ -5,15 +5,15 @@ NovaUnit is a unit-testing package for Laravel Nova, built using PHPUnit. NovaUn
 You can install this package into your Laravel project via composer:
 
 ```sh
-composer require --dev joshgaber/novaunit
+composer require --dev jamesfreeman/novaunit
 ```
 
 ### Requirements
 
-* PHP 7.2 or higher
-* [Laravel](https://laravel.com/) 6.x - 10.x
+* PHP 8.0 or higher
+* [Laravel](https://laravel.com/) 6.x - 11.x
 * [Laravel Nova](https://nova.laravel.com/) 2.x - 4.x
-* [PHPUnit](https://github.com/sebastianbergmann/phpunit) 8.x - 10.x
+* [PHPUnit](https://github.com/sebastianbergmann/phpunit) 8.5.x - 11.x
 
 ## Usage
 

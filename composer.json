@@ -8,7 +8,7 @@
         "joshgaber",
         "novaunit"
     ],
-    "homepage": "https://github.com/joshgaber/novaunit",
+    "homepage": "https://github.com/jamesfreeman/novaunit",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -16,6 +16,12 @@
             "name": "Josh Gaber",
             "email": "joshgaber@gmail.com",
             "homepage": "https://joshgaber.ca",
+            "role": "Developer"
+        },
+        {
+            "name": "James Freeman",
+            "email": "github@james-freeman.info",
+            "homepage": "https://james-freeman.info",
             "role": "Developer"
         }
     ],
