@@ -29,7 +29,7 @@
         "php": "^8.0",
         "ext-mbstring": "*",
         "cakephp/chronos": ">=2.0.0",
-        "illuminate/support": "^8.83.4|^9.3.1|^10.0|^11.0",
+        "illuminate/support": "^8.83.4|^9.3.1|^10|^11|^12",
         "laravel/nova": "^4.0|^5.0",
         "phpunit/phpunit": "^9.0|^10.0|^11.0"
     },
